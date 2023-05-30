@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.InfoFragment1"
+    android:background="#7C7C7C">
+
+    <TextView
+        android:id="@+id/txt_catat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:text="@string/txt_catat"/>
+    <TextView
+        android:id="@+id/txt_dan"
+        android:layout_below="@id/txt_catat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:text="dan"/>
+    <TextView
+        android:id="@+id/txt_baca"
+        android:layout_below="@id/txt_catat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:text="@string/txt_baca"/>
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="208dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/catatan1" />
+
+</RelativeLayout>
